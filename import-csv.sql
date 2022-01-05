@@ -1,0 +1,6 @@
+LOAD DATA LOCAL INFILE  '/home/satou/linetoday/stories-2022-01-05-adjusted.csv'
+INTO TABLE stories
+CHARACTER SET UTF8
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY 'n';
